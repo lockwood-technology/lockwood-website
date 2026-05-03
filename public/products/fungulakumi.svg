@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="g-fungulakumi" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4A1C6F"/>
+      <stop offset="100%" stop-color="#2E0F4D"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#g-fungulakumi)"/>
+  <path
+    d="M14 24 L32 16 L50 24 L50 28 C50 38, 42 46, 32 50 C22 46, 14 38, 14 28 Z"
+    stroke="#fff"
+    stroke-width="3"
+    stroke-linejoin="round"
+    fill="none"
+  />
+  <path
+    d="M32 26 L32 38 M26 32 L38 32"
+    stroke="#FFD700"
+    stroke-width="3"
+    stroke-linecap="round"
+  />
+</svg>

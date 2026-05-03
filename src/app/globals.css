@@ -1,0 +1,203 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Primary — Lockwood Blue scale */
+  --color-primary-50: #eef2ff;
+  --color-primary-100: #dde4ff;
+  --color-primary-200: #b8c6ff;
+  --color-primary-300: #8ca2ff;
+  --color-primary-400: #5877ff;
+  --color-primary-500: #1f49ff;
+  --color-primary-600: #143ae0;
+  --color-primary-700: #0e2db3;
+  --color-primary-800: #0a2285;
+  --color-primary-900: #06175c;
+
+  /* Ink scale */
+  --color-ink-50: #f7f7f8;
+  --color-ink-100: #eeeef1;
+  --color-ink-200: #dadadf;
+  --color-ink-300: #bdbdc5;
+  --color-ink-400: #8e8e99;
+  --color-ink-500: #63636e;
+  --color-ink-600: #43434c;
+  --color-ink-700: #2a2a31;
+  --color-ink-800: #18181c;
+  --color-ink-900: #111111;
+  --color-ink-950: #000000;
+
+  /* Surfaces */
+  --color-surface-lilac: #eef0ff;
+  --color-surface-paper: #f7f7f8;
+  --color-surface-card: #ffffff;
+  --color-surface-ink: #111111;
+
+  /* State */
+  --color-success: #12b981;
+  --color-warning: #f5b400;
+  --color-danger: #e5484d;
+
+  /* Typography */
+  --font-sans: var(--font-manrope);
+  --font-mono: var(--font-jetbrains-mono);
+
+  /* Type scale */
+  --font-size-display-xl: 88px;
+  --font-size-display: 64px;
+  --font-size-h1: 44px;
+  --font-size-h2: 32px;
+  --font-size-h3: 24px;
+  --font-size-h4: 20px;
+
+  /* Radii */
+  --radius-default: 14px;
+  --radius-card: 16px;
+  --radius-pill: 9999px;
+
+  /* Shadows */
+  --shadow-brand: 0 10px 30px rgba(31, 73, 255, 0.28);
+  --shadow-soft: 0 6px 20px rgba(17, 17, 17, 0.08), 0 2px 6px rgba(17, 17, 17, 0.04);
+  --shadow-lg: 0 20px 48px rgba(17, 17, 17, 0.12), 0 6px 16px rgba(17, 17, 17, 0.06);
+
+  /* Motion */
+  --ease-standard: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  /* ── Per-product brand tokens ──
+     Single source of truth for each Lockwood product's identity.
+     Use these via Tailwind utilities like `bg-mchango-primary` or via
+     CSS var(--color-...) references. */
+  --color-malipopay-primary: #1f49ff;
+  --color-malipopay-accent: #ffffff;
+
+  --color-wedding-primary: #c2476e;
+  --color-wedding-accent: #fce4ed;
+
+  --color-send-primary: #0ea789;
+  --color-send-accent: #5fd4bc;
+  --color-send-ink: #04241f;
+
+  --color-link-primary: #0b5fff;
+  --color-link-accent: #8da6ff;
+
+  --color-housing-primary: #1b4332;
+  --color-housing-accent: #f4a716;
+
+  --color-localhost-primary: #4a6cf7;
+  --color-localhost-accent: #7bffb1;
+
+  --color-investors-primary: #0d1b2a;
+  --color-investors-accent: #7cb518;
+
+  --color-kikaba-primary: #f0762e;
+  --color-kikaba-accent: #fff6ec;
+
+  --color-drivers-primary: #0a1628;
+  --color-drivers-accent: #ff6b35;
+
+  --color-mchango-primary: #e63946;
+  --color-mchango-accent: #ffb703;
+
+  --color-fungulakumi-primary: #4a1c6f;
+  --color-fungulakumi-accent: #ffd700;
+
+  --color-mziki-primary: #0a0a0a;
+  --color-mziki-accent: #39ff14;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans), system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--color-ink-950);
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Typography helpers */
+.display-xl {
+  font-weight: 800;
+  font-size: clamp(48px, 8.2vw, 112px);
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+  margin: 0;
+}
+
+.display-lg {
+  font-weight: 800;
+  font-size: clamp(40px, 5.8vw, 72px);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  margin: 0;
+}
+
+.display-md {
+  font-weight: 800;
+  font-size: clamp(32px, 4vw, 52px);
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  margin: 0;
+}
+
+.h-section {
+  font-weight: 800;
+  font-size: clamp(28px, 3.2vw, 44px);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.eyebrow {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-primary-500);
+}
+
+/* Marquee animation */
+@keyframes lw-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  display: flex;
+  gap: 64px;
+  width: max-content;
+  animation: lw-marquee 40s linear infinite;
+}
+
+.pattern-mark {
+  background-image: url("/artboard-12.png");
+  background-size: 520px;
+}
+
+/* Focus ring on real interactive controls */
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[role="button"]:focus-visible,
+a:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(31, 73, 255, 0.35);
+  border-radius: 6px;
+}
+
+a:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}

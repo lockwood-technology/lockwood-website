@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 80" width="1080" height="80" role="img" aria-label="Lockwood product mark family">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1F49FF"/><stop offset="100%" stop-color="#0E2DB3"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#C2476E"/><stop offset="100%" stop-color="#6A1F3E"/></linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#29BEA1"/><stop offset="100%" stop-color="#00876F"/></linearGradient>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0B5FFF"/><stop offset="100%" stop-color="#0433B3"/></linearGradient>
+    <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1B4332"/><stop offset="100%" stop-color="#0A2A1B"/></linearGradient>
+    <linearGradient id="g6" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4A6CF7"/><stop offset="100%" stop-color="#1A2849"/></linearGradient>
+    <linearGradient id="g7" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0D1B2A"/><stop offset="100%" stop-color="#0A1422"/></linearGradient>
+    <linearGradient id="g8" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#F0762E"/><stop offset="100%" stop-color="#B84A0E"/></linearGradient>
+    <linearGradient id="g9" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0A1628"/><stop offset="100%" stop-color="#11253E"/></linearGradient>
+    <linearGradient id="g10" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#E63946"/><stop offset="100%" stop-color="#A8232E"/></linearGradient>
+    <linearGradient id="g11" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#4A1C6F"/><stop offset="100%" stop-color="#2E0F4D"/></linearGradient>
+    <linearGradient id="g12" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#1A1A1A"/><stop offset="100%" stop-color="#0A0A0A"/></linearGradient>
+  </defs>
+
+  <!-- 12 tiles at 64×64, 24px gap, total = 12*64 + 11*24 = 1032, centered in 1080 (24 left padding) -->
+  <g transform="translate(24, 8)">
+    <!-- 1 Malipopay -->
+    <g transform="translate(0, 0)">
+      <rect width="64" height="64" rx="16" fill="url(#g1)"/>
+      <rect x="14" y="22" width="36" height="22" rx="3" stroke="#fff" stroke-width="3" fill="none"/>
+      <line x1="14" y1="30" x2="50" y2="30" stroke="#fff" stroke-width="3"/>
+      <rect x="38" y="36" width="8" height="4" rx="1" fill="#fff"/>
+    </g>
+    <!-- 2 Wedding -->
+    <g transform="translate(88, 0)">
+      <rect width="64" height="64" rx="16" fill="url(#g2)"/>
+      <circle cx="26" cy="34" r="11" stroke="#fff" stroke-width="3" fill="none"/>
+      <circle cx="38" cy="34" r="11" stroke="#fff" stroke-width="3" fill="none"/>
+    </g>
+    <!-- 3 Send -->
+    <g transform="translate(176, 0)">
+      <rect width="64" height="64" rx="16" fill="url(#g3)"/>
+      <path d="M12 32 L52 16 L42 50 L32 36 L12 32 Z" stroke="#fff" stroke-width="2.6" stroke-linejoin="round" fill="none"/>
+      <path d="M32 36 L42 24" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+    </g>
+    <!-- 4 Link -->
+    <g transform="translate(264, 0)">
+      <rect width="64" height="64" rx="16" fill="url(#g4)"/>
+      <path d="M28 36 a8 8 0 0 0 11 0 l5 -5 a8 8 0 0 0 -11 -11 l-3 3" stroke="#fff" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+      <path d="M36 28 a8 8 0 0 0 -11 0 l-5 5 a8 8 0 0 0 11 11 l3 -3" stroke="#fff" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+    </g>
+    <!-- 5 Housing -->
+    <g transform="translate(352, 0)">
+      <rect width="64" height="64" rx="16" fill="url(#g5)"/>
+      <path d="M16 32 L32 18 L48 32 M20 30 L20 46 L44 46 L44 30 M28 46 L28 36 L36 36 L36 46" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <circle cx="48" cy="22" r="2.5" fill="#F4A716"/>
+    </g>
+    <!-- 6 Localhost -->
+    <g transform="translate(440, 0)">
+      <rect width="64" height="64" rx="16" fill="url(#g6)"/>
+      <rect x="14" y="16" width="36" height="10" rx="2.5" stroke="#fff" stroke-width="3" fill="none"/>
+      <rect x="14" y="28" width="36" height="10" rx="2.5" stroke="#fff" stroke-width="3" fill="none"/>
+      <rect x="14" y="40" width="36" height="10" rx="2.5" stroke="#fff" stroke-width="3" fill="none"/>
+      <circle cx="20" cy="21" r="1.6" fill="#7BFFB1"/>
+      <circle cx="20" cy="33" r="1.6" fill="#7BFFB1"/>
+      <circle cx="20" cy="45" r="1.6" fill="#7BFFB1"/>
+    </g>
+    <!-- 7 Investors -->
+    <g transform="translate(528, 0)">
+      <rect width="64" height="64" rx="16" fill="url(#g7)"/>
+      <path d="M14 44 L24 32 L32 38 L48 18" stroke="#7CB518" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <path d="M40 18 L48 18 L48 26" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </g>
+    <!-- 8 Kikaba -->
+    <g transform="translate(616, 0)">
+      <rect width="64" height="64" rx="16" fill="url(#g8)"/>
+      <circle cx="32" cy="32" r="14" stroke="#fff" stroke-width="3" fill="none"/>
+      <circle cx="32" cy="32" r="8" stroke="#fff" stroke-width="3" fill="none"/>
+      <circle cx="32" cy="32" r="3" fill="#fff"/>
+    </g>
+    <!-- 9 Drivers -->
+    <g transform="translate(704, 0)">
+      <rect width="64" height="64" rx="16" fill="url(#g9)"/>
+      <path d="M16 38 a16 16 0 0 1 32 0" stroke="#fff" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+      <path d="M32 38 L42 24" stroke="#FF6B35" stroke-width="3.5" stroke-linecap="round"/>
+      <circle cx="32" cy="38" r="3" fill="#FF6B35"/>
+    </g>
+    <!-- 10 Mchango -->
+    <g transform="translate(792, 0)">
+      <rect width="64" height="64" rx="16" fill="url(#g10)"/>
+      <path d="M32 48 C18 38, 14 26, 22 20 C26 17, 30 19, 32 24 C34 19, 38 17, 42 20 C50 26, 46 38, 32 48 Z" stroke="#fff" stroke-width="3" stroke-linejoin="round" fill="none"/>
+      <circle cx="32" cy="32" r="3" fill="#FFB703"/>
+    </g>
+    <!-- 11 FungulaKumi -->
+    <g transform="translate(880, 0)">
+      <rect width="64" height="64" rx="16" fill="url(#g11)"/>
+      <path d="M14 24 L32 16 L50 24 L50 28 C50 38, 42 46, 32 50 C22 46, 14 38, 14 28 Z" stroke="#fff" stroke-width="3" stroke-linejoin="round" fill="none"/>
+      <path d="M32 26 L32 38 M26 32 L38 32" stroke="#FFD700" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <!-- 12 Mziki -->
+    <g transform="translate(968, 0)">
+      <rect width="64" height="64" rx="16" fill="url(#g12)"/>
+      <line x1="20" y1="28" x2="20" y2="36" stroke="#39FF14" stroke-width="3.5" stroke-linecap="round"/>
+      <line x1="26" y1="22" x2="26" y2="42" stroke="#39FF14" stroke-width="3.5" stroke-linecap="round"/>
+      <line x1="32" y1="16" x2="32" y2="48" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/>
+      <line x1="38" y1="22" x2="38" y2="42" stroke="#39FF14" stroke-width="3.5" stroke-linecap="round"/>
+      <line x1="44" y1="26" x2="44" y2="38" stroke="#39FF14" stroke-width="3.5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
