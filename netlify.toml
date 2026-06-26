@@ -15,4 +15,4 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
-    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; font-src 'self' fonts.gstatic.com fonts.googleapis.com; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; frame-ancestors 'none';"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.mxpnl.com https://cdn.amplitude.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com; font-src 'self' fonts.gstatic.com fonts.googleapis.com data:; img-src 'self' data: blob: https://cdn.mxpnl.com; connect-src 'self' https://api-js.mixpanel.com https://api.mixpanel.com https://api.eu.mixpanel.com https://api2.amplitude.com https://api.amplitude.com https://api.eu.amplitude.com; object-src 'none'; frame-ancestors 'none';"
