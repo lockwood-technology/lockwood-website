@@ -23,11 +23,11 @@ export default function CaseStudiesPreview() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           {caseStudies.map((s) => {
-            const isDark = s.bg === "#111111" || s.bg === "var(--color-primary-500)";
+            const isDark = s.fg === "#fff";
             return (
               <Link
-                key={s.id}
-                href="/work"
+                key={s.slug}
+                href={`/work/${s.slug}`}
                 className={`flex flex-col rounded-3xl p-7 min-h-[460px] transition-transform duration-200 hover:-translate-y-1 ${
                   isDark ? "" : "border border-ink-200"
                 }`}

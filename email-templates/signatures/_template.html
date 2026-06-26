@@ -1,0 +1,40 @@
+<!--
+  Lockwood Technology — Email Signature Template (blue card)
+  Replace the {{TOKENS}} per person:
+    {{NAME}}        Full name
+    {{INITIALS}}    Two- or three-letter monogram (e.g. BB, AWU)
+    {{ROLE}}        Role line
+    {{EMAIL}}       Full email
+    {{PHONE}}       Phone with spaces
+    {{PHONE_E164}}  Phone in E.164 (no spaces, for tel: link)
+  Render: paste the rendered HTML into Gmail Settings → Signature.
+-->
+<table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;font-family:Manrope,Helvetica,Arial,sans-serif;color:#ffffff;width:540px;background:#0938CC;border-radius:14px;">
+  <tr>
+    <td background="pattern-band-blue.png" style="padding:0;background-image:url(pattern-band-blue.png);background-color:#0938CC;background-size:cover;background-position:center;background-repeat:no-repeat;border-radius:14px;">
+      <table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;width:100%;">
+        <tr>
+          <td style="padding:22px 26px 20px;vertical-align:top;">
+            <div style="font-family:'JetBrains Mono',Consolas,monospace;font-size:10px;font-weight:700;letter-spacing:0.22em;color:#A8C2FF;text-transform:uppercase;">Lockwood &nbsp;&middot;&nbsp; {{INITIALS}}</div>
+            <div style="font-size:22px;font-weight:800;color:#ffffff;letter-spacing:-0.02em;margin-top:8px;line-height:1.12;">{{NAME}}</div>
+            <div style="font-size:12.5px;font-weight:600;color:#A8C2FF;margin-top:3px;letter-spacing:0.01em;">{{ROLE}}</div>
+            <table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;margin-top:16px;font-family:'JetBrains Mono',Consolas,monospace;">
+              <tr>
+                <td style="padding-right:14px;font-size:11px;color:#ffffff;">
+                  <a href="mailto:{{EMAIL}}" style="color:#ffffff;text-decoration:none;">{{EMAIL}}</a>
+                </td>
+                <td style="border-left:1px solid rgba(255,255,255,0.3);padding-left:14px;font-size:11px;color:#ffffff;">
+                  <a href="tel:{{PHONE_E164}}" style="color:#ffffff;text-decoration:none;">{{PHONE}}</a>
+                </td>
+              </tr>
+            </table>
+            <div style="margin-top:16px;padding-top:12px;border-top:1px solid rgba(255,255,255,0.22);font-family:'JetBrains Mono',Consolas,monospace;font-size:10px;color:#A8C2FF;letter-spacing:0.1em;text-transform:uppercase;">
+              <a href="https://lockwood.co.tz" style="color:#ffffff;text-decoration:none;">lockwood.co.tz</a>
+              &nbsp;&middot;&nbsp; Transforming data, powering decisions.
+            </div>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

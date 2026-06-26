@@ -15,6 +15,14 @@ const SERVICES = [
   "Wedding (product)",
   "Send (product)",
   "Link (product)",
+  "Housing (product)",
+  "Localhost (product)",
+  "Investors (product)",
+  "Kikaba (product)",
+  "Drivers (product)",
+  "Mchango (product)",
+  "FungulaKumi (product)",
+  "Mziki (product)",
 ];
 
 const BUDGETS = [

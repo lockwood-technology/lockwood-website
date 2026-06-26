@@ -7,8 +7,8 @@ export interface NavItem {
 
 export const mainNav: NavItem[] = [
   { id: "services", label: "What we do", href: "/services" },
-  { id: "products", label: "Products", href: "#", hasMenu: true },
-  { id: "work", label: "Case studies", href: "/work" },
+  { id: "products", label: "Products", href: "/products" },
+  { id: "work", label: "Work", href: "/work" },
   { id: "about", label: "About", href: "/about" },
   { id: "contact", label: "Contact", href: "/contact" },
 ];
@@ -38,7 +38,7 @@ export const footerNav = {
   ],
   Company: [
     { label: "About", href: "/about" },
-    { label: "Case studies", href: "/work" },
+    { label: "Work", href: "/work" },
     { label: "Careers", href: "/careers" },
     { label: "Contact", href: "/contact" },
   ],

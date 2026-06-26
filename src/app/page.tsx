@@ -3,8 +3,9 @@ import LogoMarquee from "@/components/home/LogoMarquee";
 import ServicesPreview from "@/components/home/ServicesPreview";
 import ProductsShowcase from "@/components/home/ProductsShowcase";
 import CaseStudiesPreview from "@/components/home/CaseStudiesPreview";
-import RegionSection from "@/components/home/RegionSection";
+import HeadquartersSection from "@/components/about/HeadquartersSection";
 import WhyLockwood from "@/components/home/WhyLockwood";
+import Testimonials from "@/components/home/Testimonials";
 import ValuesStrip from "@/components/home/ValuesStrip";
 import HomeCTA from "@/components/home/HomeCTA";
 
@@ -16,8 +17,9 @@ export default function HomePage() {
       <ServicesPreview />
       <ProductsShowcase />
       <CaseStudiesPreview />
-      <RegionSection />
+      <HeadquartersSection />
       <WhyLockwood />
+      <Testimonials />
       <ValuesStrip />
       <HomeCTA />
     </>

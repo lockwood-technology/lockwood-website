@@ -30,7 +30,7 @@ const cols: { title: string; items: [string, string][] }[] = [
     title: "Company",
     items: [
       ["About", "/about"],
-      ["Case studies", "/work"],
+      ["Work", "/work"],
       ["Careers", "/careers"],
       ["Contact", "/contact"],
     ],
