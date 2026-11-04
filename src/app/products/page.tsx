@@ -29,8 +29,8 @@ export default function ProductsListingPage() {
         headline="Practical platforms for everyday needs."
         intro="Lockwood owns and operates a growing ecosystem of digital products for consumers, communities, businesses, and organisations across East Africa."
         ctas={[
-          { label: "Explore products ↗", href: "#products", variant: "primary" },
-          { label: "Start a project ↗", href: "/contact", variant: "outline" },
+          { label: "Explore products →", href: "#products", variant: "primary" },
+          { label: "Start a project →", href: "/contact", variant: "outline" },
         ]}
         heroImage="/hero/o-mark-products.png"
       />
